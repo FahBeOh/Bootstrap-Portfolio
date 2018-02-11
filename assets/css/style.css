@@ -1,5 +1,5 @@
 
-/* Portfolio Page */
+/* Bio Page */
 
 body{
     background-image: url("../images/concrete-texture.png");
@@ -8,7 +8,7 @@ body{
     
 }
 
-h1, h2, h3{
+h1, h2, h3, h4, h5{
     font-family: "Georgia", Times, Times New Roman, serif;
     font-weight: bold;
 }
@@ -111,7 +111,16 @@ a{
     margin: 10px;
 }
 
-#photosContent{
-    padding-left: 13px;
+
+.card{
+    margin: 10px;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-body{
+    background-color: #4aaaa5;
 }
 
